@@ -3,6 +3,8 @@ package ru.netology.geo;
 import ru.netology.entity.Country;
 import ru.netology.entity.Location;
 
+import java.util.stream.Stream;
+
 public class GeoServiceImpl implements GeoService {
 
     public static final String LOCALHOST = "127.0.0.1";
